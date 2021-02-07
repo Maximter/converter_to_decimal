@@ -1,0 +1,57 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: #151515;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    display: flex;
+    padding-left: 10px;
+    margin: 50px auto;
+    background: #151515;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 30%;
+    height: 30px;
+}
+
+button {
+    background-color: #202020;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    padding-top: 5px;
+    width: 70px;
+    height: 30px;
+    margin: auto;
+}
+
+.content div {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#answer {
+    margin-top: 20px;
+}
